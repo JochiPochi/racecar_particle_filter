@@ -22,6 +22,7 @@ import range_libc
 
 
 ### Useful functions
+# Inspired by TA examples
 def angle_to_quaternion(angle):
     return Quaternion(*tf.transformations.quaternion_from_euler(0, 0, angle))
 
