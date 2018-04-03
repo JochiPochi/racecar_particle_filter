@@ -1,0 +1,4 @@
+<launch>
+	<node pkg="monte_carlo_localization" type="particle_filter_minimal.py" name="Particle_filter" output="screen">
+	</node>
+</launch>
